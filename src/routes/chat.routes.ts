@@ -1,5 +1,6 @@
-import { conversationService } from "@/services/Conversation.service.js";
-import { chatWithGrok } from "@/services/grok.service.js";
+
+import { conversationService } from "../services/Conversation.service.js";
+import { chatWithGrok } from "../services/grok.service.js";
 import { FastifyInstance } from "fastify";
 
 

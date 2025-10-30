@@ -10,6 +10,7 @@ const HOST = process.env.HOST || '0.0.0.0';
 const start = async () => {
   try {
 
+    console.log('Starting Weather API Server...');
     await connectDatabase();
 
     // Register Fastify plugins

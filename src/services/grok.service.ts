@@ -1,7 +1,7 @@
-import { ChatResponse } from "@/types/chat.types.js";
+import { ChatResponse } from "../types/chat.types.js";
 import { conversationService } from "./Conversation.service.js";
-import { groqClient, groqConfig } from "@/config/grok.js";
-import { weatherTools } from "@/utils/weather-tools.js";
+import { groqClient, groqConfig } from "../config/grok.js";
+import { weatherTools } from "../utils/weather-tools.js";
 import { executeWeatherTool } from "./tool-executor.service.js";
 
 export const chatWithGrok = async (

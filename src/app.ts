@@ -79,8 +79,9 @@ export const registerPlugins = async () => {
 
 export const connectDatabase = async (): Promise<void> => {
   try {
+    console.log('Connecting to:', env.MONGODB_URI ? 'URI is present' : 'URI is MISSING!'   );
+
     await mongoose.connect(env.MONGODB_URI);
-    
     console.log('✅ MongoDB connected successfully');
     console.log(`📦 Database: ${mongoose.connection.name}`);
 
