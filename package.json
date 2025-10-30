@@ -16,7 +16,7 @@
     "typescript"
   ],
   "type": "module",
-  "author": "Your Name",
+  "author": "Jagruti Hota",
   "license": "MIT",
   "dependencies": {
     "@fastify/cors": "^9.0.1",
